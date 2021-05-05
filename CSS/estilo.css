@@ -1,0 +1,132 @@
+html{
+    background-image:url("../img/background.png");
+
+}
+
+#container{    
+    width: 900px;    
+    height: 500px;    
+    margin: 0 auto;
+}
+
+#topo{
+    height: 123px;
+    padding-top:12px;
+    text-align:center;
+	color:transparent;
+    background-image: url("../img/topo.png");
+    
+}
+
+#topoImagem{
+    height: 155px;
+    padding-top:12px;
+    text-align:center;
+	color:transparent;
+    background-image: url("../img/topo.png");
+    
+}
+
+#menu{
+    width: 900px;
+	height: 100px;
+	background-color:#F1F2F3;
+	background-image:url(../img/menu.png);
+}
+
+.nav{
+    list-style: none;
+ 
+}
+ 
+.nav li{
+    float: left;
+    position: relative;
+}
+ 
+.nav li a:link,
+.nav li a:visited{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+ 
+.nav li:hover a,
+.nav li a:active,
+.nav li a:hover{
+    display: block;
+    text-decoration: none;
+	background-color:#EBEBEB;
+
+}
+ 
+.submenu{
+    list-style:none;
+    display:none;
+    width:146px;
+    position:absolute;
+    top:60px;
+	padding-left:11px;
+}
+ 
+.nav li:hover .submenu{
+    display:block;
+}
+ 
+.submenu li a:link,
+.submenu li a:visited{
+    display: block;
+    padding: 5px;
+	padding-bottom: 0px;
+    text-decoration: none;
+	background-color:#F1F2F3;
+}
+ 
+.submenu li:hover a,
+.submenu li a:active,
+.submenu li a:hover{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+	background-color:#E0E0E0;		
+}
+
+a{
+	text-decoration:none;
+}
+
+a:hover{
+	text-transform:uppercase;
+}
+
+#conteudo{
+    width: 880px;
+    min-height: 500px;
+    color: #000066;
+    padding: 10px 10px 10px 10px;
+	background-color:#F1F2F3;
+}
+
+#conteudoProdutos{
+    min-width: 900px;
+    min-height: 900px;
+	background-color:#F1F2F3;
+}
+
+#conteudoNota{
+    min-width: 900px;
+    min-height: 900px;
+	background-color:#F1F2F3;
+	padding-top:25px;
+	
+}
+
+#rodape{
+    height:55px;
+    padding-top: 5px;
+    background-color:transparent;
+	background-image:url(../img/rodape.png);
+    text-align: right;
+    font-size:15px;
+    color:#FFF;
+}
